@@ -108,6 +108,12 @@ public class Calc {
                             returnMathInput.append(replaceMathInput.charAt(i));
 
 
+                        } else if (String.valueOf(replaceMathInput.charAt(i)).equals("%")) {
+
+
+                            returnMathInput.append(replaceMathInput.charAt(i));
+
+
                         } else {
 
 
@@ -303,6 +309,11 @@ public class Calc {
             for (int i = 0; i < mathArrayList.size(); i++) { mathArray[i] = mathArrayList.get(i); }
 
 
+        }
+
+        if (mathString.toString().contains("%")) {
+            mathArrayList = new ArrayList<>(Arrays.asList(percent(mathArray)));
+            for (int i = 0; i < mathArrayList.size(); i++) { mathArray[i] = mathArrayList.get(i); }
         }
 
         if (mathString.toString().contains("!")) {
@@ -652,6 +663,54 @@ public class Calc {
 
 
     }
+
+
+
+    private static String[] percent(String[] mathArray) {
+
+        ArrayList<String> mathArrayList = new ArrayList<>(Arrays.asList(mathArray));
+
+        for (int i = 0; i < mathArrayList.size(); i++) {
+
+
+            try {
+
+
+                String mathArrayListElement = mathArrayList.get(i);
+
+
+                if (mathArrayListElement.contains("%")) {
+
+
+                    double answerPercentElement = Double.parseDouble(mathArrayListElement.replaceAll("%", "")) / 100;
+
+                    mathArrayList.set(i, String.valueOf(answerPercentElement));
+
+
+                }
+
+
+            } catch (Exception exception) {
+
+
+                String mathArrayListElement = mathArrayList.get(i-1);
+
+                double answerPercentElement = Double.parseDouble(mathArrayListElement.replaceAll("%", "")) / 100;
+
+                mathArrayList.set(i-1, String.valueOf(answerPercentElement));
+
+                mathArrayList.remove(i);
+
+
+            }
+
+
+        }
+
+        return rebuild(mathArrayList);
+
+    }
+
 
 
 
