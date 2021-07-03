@@ -27,6 +27,7 @@ Opportunities **calcApi**:
   ```java
   Calc.express("arccos50 + 65 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
   ```
+
   
 If you need to write the received response to a variable, be sure to use the **double** type:
 ```java
