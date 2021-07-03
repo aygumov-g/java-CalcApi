@@ -11,11 +11,15 @@ Opportunities **calcApi**:
   ```java
   Calc.express("10^5")
   ```
-  * Working with brackets
+  * Working with brackets:
   ```java
   Calc.express("(-5.6+10)^7")
   ```
-  * Calculate the factorial:
+  * Calculate the percentage of a number or parentheses:
+  ```java
+  Calc.express("(10%+9.5)%+5")
+  ```
+  * Calculate the factorial of a number or parentheses:
   ```java
   Calc.express("(2+3)!+5!")
   ```
