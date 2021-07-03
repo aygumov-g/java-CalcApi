@@ -1,7 +1,8 @@
 # java-CalcApi
 
-The official library of the [BETA] **multifunctional** calculator for java./n
+The official library of the [BETA] **multifunctional** calculator for java.
 Opportunities **calcApi**:
+
   * Work with regular expressions
   ```java
   Calc.express("2+2*2")
