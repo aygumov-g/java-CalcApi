@@ -17,7 +17,7 @@ Opportunities **calcApi**:
   ```
   * Calculate the percentage of a number or parentheses:
   ```java
-  Calc.express("(10%+9.5)%+5")
+  Calc.express("(10%4+9.5)%5+5")
   ```
   * Calculate the factorial of a number or parentheses:
   ```java
