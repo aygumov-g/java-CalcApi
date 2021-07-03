@@ -17,19 +17,19 @@ Opportunities **calcApi**:
   ```
   * Calculate the percentage of a number or parentheses:
   ```java
-  Calc.express("(10%4+9.5)%5+5")
+  Calc.express("(10%4+9.5)%(-2+3)+5")
   ```
   * Calculate the factorial of a number or parentheses:
   ```java
-  Calc.express("(2+3)!+5!")
+  Calc.express("(2+(-3))!+5!")
   ```
   * Working with trigonometric functions:
   ```java
-  Calc.express("sin5 + cos5 + tan(2+3) + arccos10 + arcsin5 + arctan((5+5)!)")
+  Calc.express("sin5 + cos5 + tan(2+3) + arccos10 + arcsin5 + arctan((5+(-5))!)")
   ```
   * Or simply and quickly calculate very complex expressions:
   ```java
-  Calc.express("arccos50 + 65 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
+  Calc.express("arccos50 + 65%4 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
   ```
 
   
