@@ -43,4 +43,4 @@ for (int i = 0; i < n1; i++) {
 System.out.println(answer);
 ```
 
-REMEMBER: Calc.express() ACCEPTS ONLY **string** VALUES. IF NECESSARY, YOU CAN USE: MessageFormat.format() OR String.valueof().
+**REMEMBER:** *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.
