@@ -34,10 +34,12 @@ Opportunities **calcApi**:
   * Or simply and quickly calculate very complex expressions:
   ```java
   Calc.express("arccos50 + 65%4 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
-  ```  
-  
-Table of possible methods and operations **calcApi**:  
+  ```
 
+<br/>
+<br/>
+
+Table of possible methods and operations **calcApi**:
 | `Method\Sign` | `Description`        | `Using`         | `Use with brackets`             |
 | --------------|----------------------|-----------------|---------------------------------|
 | +             | сложение             | 2 + 2           | 2+(5+1)                         |
@@ -55,8 +57,9 @@ Table of possible methods and operations **calcApi**:
 | arcsin        | арксинус угла        | arcsin50        | arcsin(76+312)                  |
 | arccos        | арккосинус угла      | arccos15        | arccos(4!+53421)                |
 | arctan        | арктангенс угла      | arctan8         | arctan((433+3240) * (4321+432)) |
-  
+
+<br/>
 
 > **REMEMBER:**
->> *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.
+>> *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.<br/>
 >> You can use spaces between operations and values, this will NOT affect anything!
