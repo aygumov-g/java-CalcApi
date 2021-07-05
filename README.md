@@ -62,7 +62,7 @@ Table of possible methods and operations **calcApi**:
 
 
 > **REMEMBER:**
->> *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*! <br/>
+>> *Calc.express()* accepts only **STRING** values. If necessary, you can use: *MessageFormat.format()* or *String.valueof()*! <br/>
 >> The **double type is passed as the response**! <br!>
 >> You can use spaces between operations and values, this will NOT affect anything!
 >>> Examle:
