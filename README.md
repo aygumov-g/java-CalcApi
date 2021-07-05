@@ -66,8 +66,8 @@ Table of possible methods and operations **calcApi**:
 >> The **double type is passed as the response**! <br!>
 >> You can use spaces between operations and values, this will NOT affect anything!
 >>> Examle:
->>>> <pre> 4 + 5           or 4+5 </pre>                      <br/>
->>>> <pre> ( 5 + 4 )       or (5+4) </pre>                    <br/>
->>>> <pre> log 7           or log7 </pre>                     <br/>
->>>> <pre> sin ( 5 ! + 1 ) or sin(5 !+1) or sin (5!+1) </pre> <br/>
->>>> <pre> 11 ! % 80       or 11! % 80 or 11!%80 </pre>
+>>>> <pre> 4 + 5   or   4+5 </pre>                                <br/>
+>>>> <pre> ( 5 + 4 )   or (5+4) </pre>                            <br/>
+>>>> <pre> log 7   or   log7 </pre>                               <br/>
+>>>> <pre> sin ( 5 ! + 1 )   or   sin(5 !+1) or sin (5!+1) </pre> <br/>
+>>>> <pre> 11 ! % 80   or   11! % 80   or   11!%80 </pre>
