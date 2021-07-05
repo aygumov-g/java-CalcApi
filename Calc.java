@@ -66,7 +66,7 @@ public class Calc {
 
         String sim;
 
-        String simTrig = "sin cos tan arcsin arccos arctan";
+        String fun = "sin cos tan arcsin arccos arctan log lg exp";
 
         for (int i = 0; i < replaceMathInput.length()+1; i++) {
 
@@ -135,7 +135,7 @@ public class Calc {
                         returnMathInput.append(replaceMathInput.charAt(i));
 
 
-                    } else if (simTrig.contains(sim) && !String.valueOf(replaceMathInput.charAt(i)).equals("(")) {
+                    } else if (fun.contains(sim) && !String.valueOf(replaceMathInput.charAt(i)).equals("(")) {
 
 
                         returnMathInput.append(replaceMathInput.charAt(i));
@@ -323,15 +323,6 @@ public class Calc {
         if (mathString.toString().contains("lg")) {
 
             mathArrayList = new ArrayList<>(Arrays.asList(lg(mathArray)));
-
-            for (int i = 0; i < mathArrayList.size(); i++) { mathArray[i] = mathArrayList.get(i); }
-
-
-        }
-
-        if (mathString.toString().contains("exp")) {
-
-            mathArrayList = new ArrayList<>(Arrays.asList(exp(mathArray)));
 
             for (int i = 0; i < mathArrayList.size(); i++) { mathArray[i] = mathArrayList.get(i); }
 
@@ -754,7 +745,7 @@ public class Calc {
                 if (mathArrayListElement.contains("lg")) {
 
 
-                    mathArrayList.set(i, String.valueOf(Math.log10(Double.parseDouble(mathArrayListElement.replaceAll("tn", "")))));
+                    mathArrayList.set(i, String.valueOf(Math.log10(Double.parseDouble(mathArrayListElement.replaceAll("lg", "")))));
 
                 }
 
@@ -762,46 +753,6 @@ public class Calc {
 
 
                 mathArrayList.set(i+1, String.valueOf(Math.log10(Double.parseDouble(mathArrayList.get(i+1).replaceAll("lg", "")))));
-
-
-                mathArrayList.remove(i);
-
-
-            }
-
-
-        }
-
-        return rebuild(mathArrayList);
-
-
-    }
-
-
-
-    private static String[] exp(String[] mathArray) {
-
-        ArrayList<String> mathArrayList = new ArrayList<>(Arrays.asList(mathArray));
-
-        for (int i = 0; i < mathArrayList.size(); i++) {
-
-
-            try {
-
-
-                String mathArrayListElement = mathArrayList.get(i);
-
-                if (mathArrayListElement.contains("exp")) {
-
-
-                    mathArrayList.set(i, String.valueOf(Math.exp(Double.parseDouble(mathArrayListElement.replaceAll("exp", "")))));
-
-                }
-
-            } catch (Exception exception) {
-
-
-                mathArrayList.set(i+1, String.valueOf(Math.exp(Double.parseDouble(mathArrayList.get(i+1).replaceAll("exp", "")))));
 
 
                 mathArrayList.remove(i);
