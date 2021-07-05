@@ -59,7 +59,7 @@ Table of possible methods and operations **calcApi**:
 | arctan        | арктангенс угла      | arctan8         | arctan((433+3240) * (4321+432)) |
 
 <br/>
-
+<br/>
 
 > **REMEMBER:**
 >> *Calc.express()* accepts only **STRING** values. If necessary, you can use: *MessageFormat.format()* or *String.valueof()*! <br/>
