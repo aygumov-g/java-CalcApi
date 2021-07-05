@@ -34,8 +34,9 @@ Opportunities **calcApi**:
   * Or simply and quickly calculate very complex expressions:
   ```java
   Calc.express("arccos50 + 65%4 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
-  ```
+  ```  
   
+Table of possible methods and operations * * calcApi**:  
 
 | `Method\Sign` | `Description`        | `Using`         | `Use with brackets`             |
 | --------------|----------------------|-----------------|---------------------------------|
