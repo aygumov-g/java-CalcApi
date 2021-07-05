@@ -70,4 +70,4 @@ Table of possible methods and operations **calcApi**:
 >>>> <pre> ( 5 + 4 )       or (5+4)                    </pre> <br/>
 >>>> <pre> log 7           or log7                     </pre> <br/>
 >>>> <pre> sin ( 5 ! + 1 ) or sin(5 !+1) or sin (5!+1) </pre> <br/>
->>>> <pre> 11 ! % 80       or 11! % 80 or 11!%80       </pre> <br/>
+>>>> <pre> 11 ! % 80       or 11! % 80 or 11!%80       </pre>
