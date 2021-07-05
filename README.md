@@ -36,7 +36,7 @@ Opportunities **calcApi**:
   Calc.express("arccos50 + 65%4 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
   ```  
   
-Table of possible methods and operations * * calcApi**:  
+Table of possible methods and operations **calcApi**:  
 
 | `Method\Sign` | `Description`        | `Using`         | `Use with brackets`             |
 | --------------|----------------------|-----------------|---------------------------------|
@@ -57,4 +57,6 @@ Table of possible methods and operations * * calcApi**:
 | arctan        | арктангенс угла      | arctan8         | arctan((433+3240) * (4321+432)) |
   
 
-**REMEMBER:** *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.
+> **REMEMBER:**
+>> *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.
+>> You can use spaces between operations and values, this will NOT affect anything!
