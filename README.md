@@ -23,6 +23,10 @@ Opportunities **calcApi**:
   ```java
   Calc.express("(2+(-3))!+5!")
   ```
+  * Calculate the logorithm, decimal logorithm:
+  ```java
+  Calc.express("log5 + lg(-5.1 + 10!)")
+  ```
   * Working with trigonometric functions:
   ```java
   Calc.express("sin5 + cos5 + tan(2+3) + arccos10 + arcsin5 + arctan((5+(-5))!)")
