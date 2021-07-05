@@ -35,20 +35,14 @@ Opportunities **calcApi**:
   ```java
   Calc.express("arccos50 + 65%4 * 14 / (10.65 - 19)! * (976.8574 * 5 / 10 + tan(65.3 ^ 4.55 + 7)) + 10 / sin5.31")
   ```
-
   
-If you need to write the received response to a variable, be sure to use the **double** type:
-```java
-int n1 = 10;
-int n2 = 10;
-
-double answer = 0;
-
-for (int i = 0; i < n1; i++) {
-    answer += Calc.express(MessageFormat.format("{0}+{1}", n1, n2));
-}
-
-System.out.println(answer);
-```
+  
+| Метод\знак    | Описание           |
+| ------------- |:------------------:|
+| +             | сложение                   |
+| -             | вычитание                   |
+| *             | умножение                   |
+| /             | деление                   |
+  
 
 **REMEMBER:** *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*.
