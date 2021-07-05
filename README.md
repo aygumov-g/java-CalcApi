@@ -60,6 +60,7 @@ Table of possible methods and operations **calcApi**:
 
 <br/>
 
+<pre>
 > **REMEMBER:**
 >> *Calc.express()* ACCEPTS ONLY **STRING** VALUES. IF NECESSARY, YOU CAN USE: *MessageFormat.format()* OR *String.valueof()*! <br/>
 >> The **double type is passed as the response**! <br!>
@@ -70,3 +71,4 @@ Table of possible methods and operations **calcApi**:
 >>>> log 7           or log7 <br/>
 >>>> sin ( 5 ! + 1 ) or sin(5 !+1) or sin (5!+1) <br/>
 >>>> 11 ! % 80       or 11! % 80 or 11!%80 <br/>
+</pre>
