@@ -40,23 +40,23 @@ Opportunities **calcApi**:
 <br/>
 
 Table of possible methods and operations **calcApi**:
-| `Method\Sign` | `Description`        | `Using`         | `Use with brackets`             |
-| --------------|----------------------|-----------------|---------------------------------|
-| +             | сложение             | 2 + 2           | 2+(5+1)                         |
-| -             | вычитание            | 2 - (-8)        | 9.3-(10+3)                      |
-| *             | умножение            | 2 * 2           | -6*(30-1)                       |
-| /             | деление              | 2 / 2           | 57/(9.8 * 2)                    |
-| ^             | возведение в степень | 2 ^ 2           | 7^(31+7)                        |
-| !             | факториал            | 10!             | ((-8)+15.5)!                    |
-| %             | процент от числа     | 4 % 5.1         | (6.9+10!)%((-6)+1)              |
-| log           | обычный логорифм     | log10           | log(8+9)                        |
-| lg            | десятичный логорифм  | sin7            | lg(7!+3)                        |
-| sin           | синус угла           | cos10           | sin(6+4%6)                      |
-| cos           | косинус угла         | cos80.698       | cos(8+9)                        |
-| tan           | тангенс угла         | tan6            | tan(8*(7.9+5!)                  |
-| arcsin        | арксинус угла        | arcsin50        | arcsin(76+312)                  |
-| arccos        | арккосинус угла      | arccos15        | arccos(4!+53421)                |
-| arctan        | арктангенс угла      | arctan8         | arctan((433+3240) * (4321+432)) |
+| `Method\Sign` | `Description`            | `Using`         | `Use with brackets`             |
+| --------------|--------------------------|-----------------|---------------------------------|
+| +             | addition                 | 2 + 2           | 2+(5+1)                         |
+| -             | subtraction              | 2 - (-8)        | 9.3-(10+3)                      |
+| *             | multiplication           | 2 * 2           | -6*(30-1)                       |
+| /             | division                 | 2 / 2           | 57/(9.8 * 2)                    |
+| ^             | exponentiation           | 2 ^ 2           | 7^(31+7)                        |
+| !             | factorial                | 10!             | ((-8)+15.5)!                    |
+| %             | percentage of the number | 4 % 5.1         | (6.9+10!)%((-6)+1)              |
+| log           | the usual logorithm      | log10           | log(8+9)                        |
+| lg            | decimal logorithm        | sin7            | lg(7!+3)                        |
+| sin           | the sine of the angle    | cos10           | sin(6+4%6)                      |
+| cos           | the cosine of the angle  | cos80.698       | cos(8+9)                        |
+| tan           | angle tangent            | tan6            | tan(8*(7.9+5!)                  |
+| arcsin        | arcsinus of the angle    | arcsin50        | arcsin(76+312)                  |
+| arccos        | arccosine of the angle   | arccos15        | arccos(4!+53421)                |
+| arctan        | arctangent of the angle  | arctan8         | arctan((433+3240) * (4321+432)) |
 
 <br/>
 <br/>
