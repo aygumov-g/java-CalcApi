@@ -16,9 +16,8 @@ import java.util.Arrays;
 
 
 /**
- * This calculator module can calculate both negative numbers and brackets, as well as trigonometric functions and factorials.
+ * This calculator module can calculate both negative numbers and parentheses, as well as trigonometric functions, percentages of numbers and factorials.
  * A usage example is provided.
- * {@code System.in}:
  * <blockquote><pre>{@code
  *      Calc.express("2+2*2")
  * }</pre></blockquote>
